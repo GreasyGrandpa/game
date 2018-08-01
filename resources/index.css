@@ -1,0 +1,45 @@
+/*opening screen*/
+/*main container*/
+.master{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/55/6b/59/556b59c8a034fc1752284e923a7313a2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  width: 90%;
+  height: 30%;
+  text-align: center;
+  color: white;
+  font-size: 7rem;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+*{
+  color: white;
+}
+.mainbutton{
+  display: inline-flex;
+  width: 50%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+.mainbutton a{
+  font-size: 3rem;
+  text-decoration: none;
+}
+html{
+  background-color: hsl(360, 0%, 0%);
+}
+h6{
+  margin-bottom: 1%;
+}
